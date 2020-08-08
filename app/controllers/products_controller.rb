@@ -5,7 +5,7 @@ class ProductsController < ActionController::Base
   end
 
   def add
-    
+
   end
 
 end
