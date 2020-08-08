@@ -1,12 +1,13 @@
-class ProductsController < ActionController::Base
+class ProductsController < ApplicationController
 
-  def index
+    def index
 
-  end
+    end
 
-  def add_to_cart
-      cart << params[:item]
-      redirect_to root_path
-  end
+    def add_to_cart
+        cart << params[:item]
+        redirect_to root_path
+    end
+
 
 end
