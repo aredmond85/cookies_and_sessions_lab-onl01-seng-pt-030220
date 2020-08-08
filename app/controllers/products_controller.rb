@@ -5,7 +5,8 @@ class ProductsController < ActionController::Base
   end
 
   def add
-
+    @item = Item.find(params[:id])
+    current_cart << @item.id
   end
 
 end
